@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Turismo na Suíça</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff0000; /* vermelho da bandeira da Suíça */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff0000;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            width: 250px;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            padding: 15px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Descubra a Suíça</h1>
+    </header>
+    <nav>
+        <a href="#zurich">Zurique</a>
+        <a href="#interlaken">Interlaken</a>
+        <a href="#genebra">Genebra</a>
+    </nav>
+    <section class="cards">
+        <div class="card" id="zurich">
+            <h2>Zurique</h2>
+            <p>Centro financeiro e tecnológico da Suíça.</p>
+            <button onclick="alert('Zurique é incrível!')">Saber Mais</button>
+        </div>
+        <div class="card" id="interlaken">
+            <h2>Interlaken</h2>
+            <p>Montanhas, esportes de aventura e natureza.</p>
+            <button onclick="alert('Interlaken é paradisíaca!')">Saber Mais</button>
+        </div>
+        <div class="card" id="genebra">
+            <h2>Genebra</h2>
+            <p>Sede de organizações internacionais e belas paisagens.</p>
+            <button onclick="alert('Genebra é multicultural!')">Saber Mais</button>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Turismo na Suíça | João Victor</p>
+    </footer>
+
+    <script>
+        // Exemplo simples de JS: saudação
+        alert("Bem-vindo ao site sobre a Suíça!");
+    </script>
+</body>
+</html>
